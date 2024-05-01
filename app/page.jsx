@@ -3,13 +3,12 @@ import Feed from "@components/Feed";
 const Home = () => (
   <section className='w-full flex-center flex-col'>
     <h1 className='head_text text-center'>
-      Discover & Share
+      Share, discover, and create
       <br className='max-md:hidden' />
-      <span className='orange_gradient text-center'> AI-Powered Prompts</span>
+      <span className='green_gradient text-center'>Unlock the potential of AI creativity!</span>
     </h1>
     <p className='desc text-center'>
-      Promptopia is an open-source AI prompting tool for modern world to
-      discover, create and share creative prompts
+    Prompt Hub is a vibrant community for AI enthusiasts like you! Share your amazing prompts, discover new ones, and collaborate to push the boundaries of AI creativity.
     </p>
 
     <Feed />
